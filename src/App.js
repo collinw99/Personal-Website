@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Page from './Page';
+import HomePage from './HomePage';
 
 export default class App extends Component {
 
   render() {
     return (
-      <Page/>
+      <HomePage/>
     );
   }
 }
