@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './Home.css'
+
 export default class HomePage extends Component {
 
     constructor(props) {
@@ -12,8 +14,8 @@ export default class HomePage extends Component {
 
     render() {
         return (
-            <div className="App">
-                HomePage
+            <div className="Home">
+                Home Page
             </div>
         );
     }

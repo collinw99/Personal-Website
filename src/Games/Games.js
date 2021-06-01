@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Games.css'
 
 export default class HomePage extends Component {
 
@@ -12,7 +13,7 @@ export default class HomePage extends Component {
 
     render() {
         return (
-            <div className="App">
+            <div className="Games">
                 Games page
             </div>
         );
